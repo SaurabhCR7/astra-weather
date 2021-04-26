@@ -118,6 +118,9 @@ p {
 	.inp-container {
 		width: 300px;
 	}
+	#inp {
+		width: 250px;
+	}
 	.weather-img {
 		height: 300px;
 	}
