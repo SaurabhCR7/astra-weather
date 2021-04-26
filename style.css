@@ -1,0 +1,141 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #219ebc;
+	height: 100vh;
+	padding: 0;
+	margin: 0;
+	overflow-y: hidden;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.inp-container {
+	border: 3px solid black;
+	border-radius: 5px;
+	width: 400px;
+	height: 40px;
+	margin-top: 50px;
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#inp {
+	border: none;
+	height: 34px;
+	background-color: white;
+	padding-left: 10px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.2rem;
+	width: 350px;
+}
+
+#inp:focus {
+	outline: none;
+}
+
+.search-icon {
+	height: 25px;
+	margin-right: 10px;
+}
+
+.weather-img {
+	height: 400px;
+}
+
+.description {
+	font-size: 1.5rem;
+	font-family: 'Poppins', sans-serif;
+	text-transform: capitalize;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.temperature {
+	font-size: 6rem;
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+	line-height: 100px;
+}
+
+.details-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 50px;
+	width: 350px;
+	margin: 50px auto;
+}
+
+.details-subcontainer {
+	display: flex;
+}
+
+.details-img {
+	height: 40px;
+}
+
+.details-txt {
+	font-size: 1.5rem;
+	font-family: 'Poppins', sans-serif;
+	margin-left: 15px;
+}
+
+.error {
+	font-family: 'Poppins', sans-serif;
+	font-size: 3rem;
+	text-transform: capitalize;
+	margin-top: 50px;
+}
+
+.footer {
+	height: 30px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	bottom: 0;
+	background-color: white;
+	opacity: 0.6;
+}
+
+.footer-txt {
+	font-family: 'Poppins', sans-serif;
+	font-size: 1rem;
+}
+
+p {
+	cursor: default;
+}
+
+@media screen and (max-width: 500px) {
+	.inp-container {
+		width: 300px;
+	}
+	.weather-img {
+		height: 300px;
+	}
+	.description {
+		font-size: 1.2rem;
+		margin-bottom: 0px;
+	}
+	.temperature {
+		font-size: 4rem;
+	}
+	.details-container {
+		width: 250px;
+		margin: 10px auto;
+	}
+	.details-img {
+		height: 30px;
+	}
+	.details-txt {
+		font-size: 1.2rem;
+	}
+}

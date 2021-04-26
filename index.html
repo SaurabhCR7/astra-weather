@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+			integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<title>Weather App</title>
+	</head>
+	<body>
+		<div class="inp-container">
+			<input
+				type="text"
+				name="city"
+				id="inp"
+				placeholder="Enter Location"
+				autocomplete="off"
+			/>
+			<img src="./images/search.png" alt="search" class="search-icon" />
+		</div>
+
+		<div id="container"></div>
+		<div class="footer">
+			<p class="footer-txt">
+				Made With <i class="fas fa-heart"></i> By Saurabh Chauhan
+			</p>
+		</div>
+		<script src="app.js"></script>
+	</body>
+</html>
