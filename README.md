@@ -1,30 +1,11 @@
 # Astra Weather
 
-This is a simple weather webapp built using ReactJS that displays the current weather information of a given location.
+Astra Weather is a simple, yet beautiful weather web app made using vanilla JavaScript. It uses the OpenWeatherMap API to fetch real-time weather data for any location in the world.
 
 ## Table of Contents
 
-- [Installation](#installation)
-- [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
-
-## Installation
-
-To install the required dependencies, navigate to the project directory and run:
-```
-npm install
-```
-## Usage
-
-To start the app, run:
-```
-npm start
-```
-
-This will start the app on `http://localhost:3000`. 
-
-To use the app, enter the name of the location you want to check the weather for in the input field and click the search button. The app will display the current temperature, humidity, wind speed, and weather condition of the location.
 
 ## Contributing
 
